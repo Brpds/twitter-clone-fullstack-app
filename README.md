@@ -11,10 +11,9 @@
 
 ***1 - user registration***
 ***2 - user validation***
-***3 - user following***
+***3 - user following/unfollowing***
 ***4 - user posting (create, delete)***
 ***5 - user search ***
-***6 - follow/unfollow ***
 
 ### There's a TODO list for later implementations.
 
@@ -25,7 +24,7 @@
 
 ## Environment Setup for Development (easier way):
 
-### having Apache and MySQL installed via XAMPP(line 50) installed, both services on the XAMPP, create the database by accessing the adress
+### having Apache and MySQL installed via XAMPP(line 50), both services initialized through XAMPP, create the database by accessing the adress
 http://localhost/phpmyadmin/index.php
 
 ### and in the SQL tab, paste the queries from lines 75-97, then execute.
@@ -38,7 +37,7 @@ php -S localhost:8080
 
 ## this will allow the built-in web server from php to run. Then access the address localhost:8080 and the project should work. Note that Apache and  MySQL should be active for the project to work.
 
-## Environment Setup for a Local Deploy:
+## Environment Setup for a Local Deploy(second way):
 
 ### If you're a dev, you probably have a code editor at your disposal. This project was entirely developed on VSCode on Windows, so the setup will be described as to be done on Windows. <I plan to post Linux and Mac Configs later>>>
 
@@ -128,4 +127,4 @@ require_once "../twitter_clone/App/Views/" . $layout . ".phtml";
 
 ## finally, open the adress localhost and the application should work.
 
-
+## In case of an error, feel free to open an Issue here on this repository.
